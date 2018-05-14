@@ -3,7 +3,7 @@ body, html{
 }
 
 #mainImage {
-    background-image: url("concert.jpg");
+    background-image: url("images/concert.jpg");
     height: 100%;
 }
 

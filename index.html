@@ -10,23 +10,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- one div -->
-    <!-- inside of this div is all of the drum keys -->
-    <!-- clicking a key plays the sound designated by button -->
-    <!-- can also do this just on keyboard with keyUP feature and keyboard key codes -->
-    <!-- use data-key=key code -->
-    <!-- use src = sound of drum key downloaded in file -->
     <div id="mainImage"> 
-        <p id="a" class="keyboard">A</p>
-        <p id="s" class="keyboard">S</p>
-        <p id="d" class="keyboard">D</p>
-        <p id="f" class="keyboard">F</p>
-        <p id="j" class="keyboard">J</p>
-        <p id="k" class="keyboard">K</p>
-        <p id="l" class="keyboard">L</p>
+        <!-- add src to each p tag with audio mp3 -->
+        <p id="a" class="keyboard" data-key="65">A</p>
+        <p id="s" class="keyboard" data-key="83">S</p>
+        <p id="d" class="keyboard" data-key="68">D</p>
+        <p id="f" class="keyboard" data-key="70">F</p>
+        <p id="j" class="keyboard" data-key="74">J</p>
+        <p id="k" class="keyboard" data-key="75">K</p>
+        <p id="l" class="keyboard" data-key="76">L</p>
     </div>
-    <script>
-    
-    </script>
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
