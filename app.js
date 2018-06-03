@@ -1,15 +1,16 @@
 // when specific key is pressed, play sound associated with key code
 window.addEventListener('keydown', function () {
-
     if (event.keyCode === 65) {
         document.getElementById("a").style.color = "red";
         document.addEventListener('keyup', function () {
             document.getElementById("a").style.color = "black";
+
         })
     }else if (event.keyCode === 83) {
         document.getElementById("s").style.color = "red";
         document.addEventListener('keyup', function () {
             document.getElementById("s").style.color = "black";
+
         })
     }else if (event.keyCode === 68) {
         document.getElementById("d").style.color = "red";
